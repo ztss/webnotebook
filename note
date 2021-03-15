@@ -1,0 +1,15 @@
+html5
+加入下划线 在需要加下划线的语句下添加<hr />
+在h5中加入注释 <!-- zhushi,不会在浏览器中显示。-->
+改变背景的颜色 <body bgcolor="yellow"></body>
+<pre>标签可以保留空格和换行，是预格式文本，适合显示计算机代码 也可以使用<code>显示代码
+使用<adress>可以在html中写出地址
+使用<abbr>显示单词的缩略，<acronym>显示单词的首字母缩写
+
+<bdo dir="rtl">
+Here is some Hebrew text
+</bdo>   将句子从右往左输出 bdo即bi-directional override,右往左即rtl
+
+<blockquote>长引用 <q>短引用
+
+<del>添加删除线 <ins>文本添加下划线
