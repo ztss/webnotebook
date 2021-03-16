@@ -13,3 +13,133 @@ Here is some Hebrew text
 <blockquote>长引用 <q>短引用
 
 <del>添加删除线 <ins>文本添加下划线
+
+<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+把链接的target属性置为"_blank",该链接会在新窗口中打开。
+
+使用下面的代码，可以链接到同一个页面的不同地方
+<p> <a href="#C4">查看 Chapter 4. </a> </p>
+<h2><a name="C4">Chapter 4</a></h2>
+
+<p>
+这是另一个 mailto 链接：
+<a href="mailto:someone@microsoft.com?cc=someoneelse@microsoft.com&bcc=andsomeoneelse2@microsoft.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
+</p>
+<p>
+<b>注意：</b>应该使用%20替换上面单词之间的空格，这样浏览器可以正常显示文本
+</p>
+
+HTML框架实例
+垂直框架
+<html>
+<frameset cols="25%,50%,25%">
+  <frame src="/example/html/frame_a.html">
+  <frame src="/example/html/frame_b.html">
+  <frame src="/example/html/frame_c.html">
+</frameset>
+</html>
+
+水平框架
+<html>
+<frameset rows="25%,50%,25%">
+  <frame src="/example/html/frame_a.html">
+  <frame src="/example/html/frame_b.html">
+  <frame src="/example/html/frame_c.html">
+</frameset>
+</html>
+
+混合框架
+<html>
+<frameset rows="50%,50%">
+<frame src="/example/html/frame_a.html">
+<frameset cols="25%,75%">
+<frame src="/example/html/frame_b.html">
+<frame src="/example/html/frame_c.html">
+</frameset>
+</frameset>
+</html>
+
+在frame中添加noresize属性，框架就不可调整尺寸了。
+
+导航框架
+
+
+HTML表格实例
+每个表格又table标签开始，每个表格行由tr标签开始，每个表格数据由td标签开始。
+<html>
+
+<body>
+
+<p>每个表格由 table 标签开始。</p>
+<p>每个表格行由 tr 标签开始。</p>
+<p>每个表格数据由 td 标签开始。</p>
+
+<h4>一列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+</tr>
+</table>
+
+<h4>一行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+</table>
+
+<h4>两行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+<tr>
+  <td>400</td>
+  <td>500</td>
+  <td>600</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+
+表格边框
+将border属性的值调高。
+去除border属性，可以取消表格的边框
+使用th标签可以为表格添加表头
+使用caption标签为表格添加标题
+跨行或者跨列的单元格，可以在th标签中添加colspan或者rowspan标签
+在table标签中添加cellpadding属性可以添加单元格边距，或者cellspacing属性添加单元格间距
+或者在table标签中添加bgcolor属性或者background属性添加背景颜色或者背景图像
+在th或者td标签中添加align属性可以在表格单元中排列内容
+在table标签中使用frame可以表现大部分的表格样式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
