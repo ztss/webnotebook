@@ -214,8 +214,24 @@ id选择器：#id属性值{属性：值；}，id选择器可以为带有特定ID
 }
 
 
+尺寸样式属性：给元素设置宽高.span标签不能设置宽度，高度。使用类选择器
 
+文本属性：颜色属性,使用span标签框住要改变颜色的文字。
+文字位置，text-align
+text-decoratoin:none,underline,overline,line-through.
+text-transform:设置英文字母的大小写转换。
+text-indent：缩进.缩进单位为em.
+letter-spacing:字母间距
+word-spacing:单词间距。单位为px。
+line-height:行高,主要作用是设置文本的垂直方向居中对齐。
 
+字体属性：
+font-style:正常或者斜体。
+font-weight：加粗效果
+font-size：设置文本的大小
+font-family：给文本设置字体
+font
+一般很特殊的字体都是使用图片表示的，因为用户电脑不一定支持。
 
 
 
