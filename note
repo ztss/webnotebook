@@ -235,7 +235,35 @@ font
 
 测试一下改变？为什么没有变化
 
+列表样式属性案例：让div居中，引入外边距。cellspacing。在
+css中盒子和盒子之间的距离也为外边距。margin-left:auto;
+margin-right:auto;
 
+伪类选择器：用来给超级链接的不同状态设置样式
+正常状态，访问后状态，鼠标放上去状态，激活状态。
+:link. :visited.:hover.:active
+伪类选择器都是带有冒号的。
+是否访问过还会看历史是否访问过。超级连接器的不同状态是有顺序的，要先
+有love hate，即link visited hover active
+
+对超级链接进行美化：我们通常会去掉超级链接的下划线，然后同时
+给超级链接设置一个颜色。
+正常状态与访问过后的样式设置为一样，当鼠标放上去设置另外的颜色。
+激活状态一般不设置。
+a:link,a:visited{
+  text-decoratoin:none;color:;
+}
+a:hover{
+  color:;
+  text-decoratoin:underline;
+}
+
+属性选择器：与标签的属性名与属性值有关，通过标签的属性名和属性值匹配元素。
+[attr] 匹配指定的属性名的所有元素
+[attr="val"] 
+[attr^="val"] 匹配以val开头的属性
+[attr$="val"] 匹配以val结尾的属性的所有元素
+[attr*="val"] 匹配属性中包含指定值的所有元素 不区分大小写
 
 
 
